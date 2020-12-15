@@ -20,7 +20,7 @@ if (!file.exists("Source_Classification_Code.rds")) {
 
 # Reading rds Files in current working Directory
 sSCC <- readRDS("summarySCC_PM25.rds")
-SCC <- readRDS("Source_Classification_Code.rds")
+
 
 sSCC <- sSCC[sSCC$fips=="24510",]
 
